@@ -1,0 +1,10 @@
+ru\sfedu\library\utils\ConfigurationUtil.class
+ru\sfedu\library\Constants.class
+ru\sfedu\library\Main.class
+ru\sfedu\library\api\IDataProvider.class
+ru\sfedu\library\api\DataProviderCSV.class
+ru\sfedu\library\beans\Wrapper.class
+ru\sfedu\library\api\DataProviderXML.class
+ru\sfedu\library\beans\enums\Outcomes.class
+ru\sfedu\library\beans\User.class
+ru\sfedu\library\api\DataProviderJDBC.class
