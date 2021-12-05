@@ -8,7 +8,7 @@ import static ru.sfedu.library.utils.ConfigurationUtil.getConfigurationEntry;
 
 public class Cli {
     public static void main(String []args) throws IOException {
-        System.out.println("hello master");
+        System.out.println("hello bug-fix");
     }
 }
 
