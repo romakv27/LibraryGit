@@ -313,3 +313,103 @@ Message: Premature end of file.
 12-05 19:55:17 INFO /tru.sfedu.library.api.DataProviderXML:191 - Educational books is displayed
 12-05 19:55:17 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
 12-05 19:55:17 INFO /tru.sfedu.library.api.DataProviderXML:227 - Children book was deleted
+12-05 20:02:01 INFO /tru.sfedu.library.utils.ConfigurationUtil:45 - Configuration path: .\src\main\resources\enviroment.properties
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:49 - ERROR-This id not exist
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:49 - ERROR-This id not exist
+12-05 20:02:01 DEBUG/tru.sfedu.library.api.DataProviderXML:37 - [User{id=1, name='Ivan', surname='Ivanov', age=17}]
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:38 - User is created
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:45 - User is displayed
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:33 - ERROR-This id exist
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:45 - User is displayed
+12-05 20:02:01 DEBUG/tru.sfedu.library.api.DataProviderXML:62 - [User{id=1, name='Ivan', surname='Ivanov', age=18}]
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:63 - User is update
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:45 - User is displayed
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:72 - User was deleted
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:49 - ERROR-This id not exist
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:57 - ERROR-This id not exist
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:147 - ERROR-This id not exist
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:147 - ERROR-This id not exist
+12-05 20:02:01 DEBUG/tru.sfedu.library.api.DataProviderXML:135 - [Scientific{id=1, title='J2EE', author='Monica Pawlan', numberOfPages=228, ageRestriction=0, typeOfBook=SCIENTIFIC, direction='java'}]
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:136 - Scientific book is created
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:143 - Scientific book is displayed
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:131 - ERROR-This id exist
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:143 - Scientific book is displayed
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:155 - Scientific book with this direction is displayed
+12-05 20:02:01 ERROR/tru.sfedu.library.api.DataProviderXML:159 - ERROR-This direction not exist
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:143 - Scientific book is displayed
+12-05 20:02:01 INFO /tru.sfedu.library.api.DataProviderXML:218 - Scientific book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:147 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:147 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:86 - [ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:87 - Art book is created
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:147 - ERROR-This id not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:82 - ERROR-This id exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:346 - ok
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:337 - [Library{id=1, book=ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}, user=User{id=1, name='Ivan', surname='Ivanov', age=17}, review='Interesting book', rating=5}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:338 - Book added to Library
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:279 - Incorrect entry
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:279 - Incorrect entry
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:209 - Art book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:86 - [ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:87 - Art book is created
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:82 - ERROR-This id exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:106 - Art book with this genre is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:109 - ERROR-This genre not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:122 - ERROR-Comics not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:209 - Art book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:86 - [ArtBook{id=2, title='Batman', author='Snayder', numberOfPages=50, ageRestriction=12, typeOfBook=ART, genre='Adventure', isComics=true}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:87 - Art book is created
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:118 - Comics is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:209 - Art book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:98 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:86 - [ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:87 - Art book is created
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:365 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:380 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:324 - ERROR-This id not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:396 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:295 - ERROR-This id not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:346 - ok
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:337 - [Library{id=1, book=ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}, user=User{id=1, name='Ivan', surname='Ivanov', age=17}, review='Interesting book', rating=5}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:338 - Book added to Library
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:333 - ERROR-This id exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:358 - User book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:373 - Book rating is displayed
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:308 - [Library{id=1, book=ArtBook{id=1, title='Idiot', author='Dostoevsky', numberOfPages=500, ageRestriction=16, typeOfBook=ART, genre='H', isComics=false}, user=User{id=1, name='Ivan', surname='Ivanov', age=17}, review='Interesting book', rating=7}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:309 - Change book rating
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:317 - Book ratings by user is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:389 - Book review is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:288 - Book review by user is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:303 - ERROR-This id not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:94 - Art book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:209 - Art book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:183 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:183 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:171 - [Children{ id=1', title='Kolobok', author='Ushinski', numberOfPages=50, ageRestriction=2, typeOfBook=CHILDREN, isEducational=false, genre='Adventure, isComics=false}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:172 - Children book is created
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:167 - ERROR-This id exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:195 - ERROR-Educational books not exist
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:227 - Children book was deleted
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:183 - ERROR-This id not exist
+12-05 20:02:02 ERROR/tru.sfedu.library.api.DataProviderXML:183 - ERROR-This id not exist
+12-05 20:02:02 DEBUG/tru.sfedu.library.api.DataProviderXML:171 - [Children{ id=2', title='Azbuka', author='Tolstoy', numberOfPages=60, ageRestriction=2, typeOfBook=CHILDREN, isEducational=true, genre='Adventure, isComics=false}]
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:172 - Children book is created
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:191 - Educational books is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
+12-05 20:02:02 INFO /tru.sfedu.library.api.DataProviderXML:227 - Children book was deleted
