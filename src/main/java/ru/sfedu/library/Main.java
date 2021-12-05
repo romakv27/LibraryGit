@@ -2,7 +2,6 @@ package ru.sfedu.library;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.sfedu.library.api.DataProviderCSV;
 import ru.sfedu.library.api.DataProviderXML;
 import ru.sfedu.library.api.IDataProvider;
 import ru.sfedu.library.beans.User;

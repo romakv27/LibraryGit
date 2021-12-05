@@ -1,13 +1,14 @@
 package ru.sfedu.library.utils;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import static ru.sfedu.library.Constants.DEFAULT_CONFIG_PATH;
-import static ru.sfedu.library.Constants.SYS_ENV_KEY;
 
 /**
  * Configuration utility. Allows to get configuration properties from the
@@ -16,9 +17,9 @@ import static ru.sfedu.library.Constants.SYS_ENV_KEY;
  * @author Boris Jmailov
  */
 public class ConfigurationUtil {
-
-    //private static final String DEFAULT_CONFIG_PATH = "./src/main/resources/enviroment.properties";
-    private static final String CONFIG_PATH = System.getProperty(SYS_ENV_KEY, DEFAULT_CONFIG_PATH);
+    private final static Logger log =  LogManager.getLogger(ConfigurationUtil.class);
+    private static final String DEFAULT_CONFIG_PATH = "./src/main/resources/enviroment.properties";
+    private static final String CONFIG_PATH = System.getProperty("config");
     private static final Properties configuration = new Properties();
     /**
      * Hides default constructor
@@ -38,12 +39,17 @@ public class ConfigurationUtil {
      * @throws IOException In case of the configuration file read failure
      */
     private static void loadConfiguration() throws IOException{
-        File nf = new File(CONFIG_PATH);
-        try (InputStream in = new FileInputStream(nf)
-        ) {
+        File configFile;
+        configFile = CONFIG_PATH == null ? new File(DEFAULT_CONFIG_PATH) : new File(CONFIG_PATH);
+        InputStream in = new FileInputStream(configFile);
+        log.info("Configuration path: " + configFile);
+        try {
             configuration.load(in);
-        } catch (IOException ex) {
-            throw new IOException(ex);
+        } catch (IOException e) {
+            log.error(e);
+            throw new IOException(e);
+        } finally{
+            in.close();
         }
     }
     /**
