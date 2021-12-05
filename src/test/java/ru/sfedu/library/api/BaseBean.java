@@ -13,6 +13,18 @@ public class BaseBean {
         return user;
     }
 
+    public static ArtBook createArt(Long id, String title, String author, Integer numberOgPages, Integer ageRestriction, String genre, Boolean isComics){
+        ArtBook artBook = new ArtBook();
+        artBook.setId(id);
+        artBook.setTitle(title);
+        artBook.setAuthor(author);
+        artBook.setNumberOfPages(numberOgPages);
+        artBook.setAgeRestriction(ageRestriction);
+        artBook.setGenre(genre);
+        artBook.setComics(isComics);
+        return artBook;
+    }
+
 
     public User getUser(){
         return new User(1L, "Ivan", "Ivanov", 17);
