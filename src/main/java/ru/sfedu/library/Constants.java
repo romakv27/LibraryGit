@@ -18,7 +18,10 @@ public class Constants {
     public static final String DB_USER = "dbUser";
     public static final String DB_PASSWORD = "dbPassword";
 
-
+    public static final String MONGO_URL = "mongoUrl";
+    public static final String MONGO_DB = "mongoDB";
+    public static final String MONGO_COLLECTION = "mongoCollection";
+    public static final String INFO_MONGO = "conect to db";
 
 
 
