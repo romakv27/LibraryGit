@@ -21,7 +21,7 @@ import static ru.sfedu.library.Constants.XML_LIBRARY;
 import static ru.sfedu.library.beans.enums.Outcomes.*;
 import static ru.sfedu.library.utils.ConfigurationUtil.getConfigurationEntry;
 
-public class DataProviderXML implements IDataProvider{
+public class DataProviderXML extends IDataProvider{
 
     private static final Logger log = LogManager.getLogger(DataProviderXML.class);
 

@@ -7,42 +7,42 @@ import ru.sfedu.library.beans.enums.TypeOfBook;
 import java.util.List;
 import java.util.Optional;
 
-public interface IDataProvider {
+public abstract class IDataProvider {
 
-    Outcomes createUser(User user);
-    Optional<User> getUserById(Long userId);
-    Outcomes updateUser(User user);
-    Outcomes deleteUserById(Long userId);
+    abstract Outcomes createUser(User user);
+    abstract Optional<User> getUserById(Long userId);
+    abstract Outcomes updateUser(User user);
+    abstract Outcomes deleteUserById(Long userId);
 
-    Outcomes addArtBook(ArtBook artBook);
-    Optional<ArtBook> getArtBookById(Long id);
-    List<ArtBook> getAllArtBookByGenre(String genre);
-    List<ArtBook> getAllComics();
+    abstract Outcomes addArtBook(ArtBook artBook);
+    abstract Optional<ArtBook> getArtBookById(Long id);
+    abstract List<ArtBook> getAllArtBookByGenre(String genre);
+    abstract List<ArtBook> getAllComics();
 
-    Outcomes addScientificBook(Scientific scientific);
-    Optional<Scientific> getScientificBookById(Long id);
-    List<Scientific> getScientificBookByDirection(String direction);
+    abstract Outcomes addScientificBook(Scientific scientific);
+    abstract Optional<Scientific> getScientificBookById(Long id);
+    abstract List<Scientific> getScientificBookByDirection(String direction);
 
-    Outcomes addChildren(Children children);
-    Optional<Children> getChildrenBookById(Long id);
-    List<Children> getAllChildrenBookIsEducational();
+    abstract Outcomes addChildren(Children children);
+    abstract Optional<Children> getChildrenBookById(Long id);
+    abstract List<Children> getAllChildrenBookIsEducational();
 
-    Outcomes addBook(TypeOfBook typeOfBook, ArtBook artBook, Scientific scientific, Children children);
+    abstract Outcomes addBook(TypeOfBook typeOfBook, ArtBook artBook, Scientific scientific, Children children);
 
 
-    Outcomes delBookByTypeAndId(TypeOfBook typeOfBook, Long id);
+    abstract Outcomes delBookByTypeAndId(TypeOfBook typeOfBook, Long id);
 
-    Outcomes informationReceipt(String method, Long userId);
+    abstract Outcomes informationReceipt(String method, Long userId);
 
-    Outcomes changeRating(Library library);
+    abstract Outcomes changeRating(Library library);
 
-    Outcomes addBookToLibrary(Library library);
-    Library checkAge(Library userAge);///включающий, тест
-    List<? extends Book> getBooksByUserId(Long userId);
-    Optional<Short> getRatingByBookId(Long bookId);
-    Optional<String> getReviewByBookId(Long bookId);
-    List<Short> allUserRatings(Long userId);
-    List<String> allUserReviews(Long userId);
-    Outcomes delBookInLibrary(Book book);
+    abstract Outcomes addBookToLibrary(Library library);
+    abstract Library checkAge(Library userAge);///включающий, тест
+    abstract List<? extends Book> getBooksByUserId(Long userId);
+    abstract Optional<Short> getRatingByBookId(Long bookId);
+    abstract Optional<String> getReviewByBookId(Long bookId);
+    abstract List<Short> allUserRatings(Long userId);
+    abstract List<String> allUserReviews(Long userId);
+    abstract Outcomes delBookInLibrary(Book book);
 
 }
