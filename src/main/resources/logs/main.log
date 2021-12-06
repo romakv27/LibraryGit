@@ -313,3 +313,20 @@ Message: Premature end of file.
 12-06 15:08:37 INFO /tru.sfedu.library.api.DataProviderXML:191 - Educational books is displayed
 12-06 15:08:37 INFO /tru.sfedu.library.api.DataProviderXML:179 - Children book is displayed
 12-06 15:08:37 INFO /tru.sfedu.library.api.DataProviderXML:227 - Children book was deleted
+12-06 15:25:52 INFO /tru.sfedu.library.utils.ConfigurationUtil:45 - Configuration path: .\src\main\resources\enviroment.properties
+12-06 15:25:53 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:57 ERROR/tru.sfedu.library.api.DataProviderXML:53 - ERROR-This id not exist
+12-06 15:25:57 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:57 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:57 ERROR/tru.sfedu.library.api.DataProviderXML:53 - ERROR-This id not exist
+12-06 15:25:57 DEBUG/tru.sfedu.library.api.DataProviderXML:39 - [User{id=1, name='Ivan', surname='Ivanov', age=17}]
+12-06 15:25:57 INFO /tru.sfedu.library.api.DataProviderXML:40 - User is created
+12-06 15:25:57 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:58 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:58 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:58 INFO /tru.sfedu.library.api.DataProviderXML:48 - User is displayed
+12-06 15:25:58 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:58 ERROR/tru.sfedu.library.api.DataProviderXML:35 - ERROR-This id exist
+12-06 15:25:58 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db
+12-06 15:25:58 INFO /tru.sfedu.library.api.DataProviderXML:48 - User is displayed
+12-06 15:25:58 INFO /tru.sfedu.library.api.IDataProvider:72 - conect to db

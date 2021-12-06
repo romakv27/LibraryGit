@@ -413,7 +413,7 @@ public class DataProviderXML extends IDataProvider{
             Serializer serializer = new Persister();
             serializer.write(new Wrapper<T>(list), writer);
 
-            saveToLog(new History(new Date(), method, list));
+            saveToLog(new HistoryContent(new Date(), method, list));
             return OK;
         } catch (Exception exception) {
             log.error(exception);
@@ -430,7 +430,7 @@ public class DataProviderXML extends IDataProvider{
             if (container.getList() == null) {
                 return new ArrayList<>();
             } else {
-                saveToLog(new History(new Date(), method, container.getList()));
+                saveToLog(new HistoryContent(new Date(), method, container.getList()));
                 return container.getList();
             }
         } catch (Exception exception) {

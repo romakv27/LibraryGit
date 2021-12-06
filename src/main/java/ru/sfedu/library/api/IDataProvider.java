@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 import org.bson.Document;
 import ru.sfedu.library.beans.*;
 import ru.sfedu.library.beans.enums.Outcomes;
-import ru.sfedu.library.beans.History;
+
 
 import ru.sfedu.library.beans.enums.TypeOfBook;
 
@@ -64,7 +64,7 @@ public abstract class IDataProvider {
 //    abstract Outcomes delBookInLibrary(Book book);
 
 
-    public void saveToLog(History object) throws IOException {
+    public void saveToLog(HistoryContent object) throws IOException {
         MongoClient client = MongoClients.create(getConfigurationEntry(MONGO_URL));
         MongoDatabase database = client.getDatabase(getConfigurationEntry(MONGO_DB));
         MongoCollection<Document> collection = database.getCollection(getConfigurationEntry(MONGO_COLLECTION));
@@ -75,7 +75,7 @@ public abstract class IDataProvider {
         collection.insertOne(document);
     }
 
-    private String objectToJSON(History object) throws JsonProcessingException {
+    private String objectToJSON(HistoryContent object) throws JsonProcessingException {
         return new ObjectMapper().writeValueAsString(object);
     }
 

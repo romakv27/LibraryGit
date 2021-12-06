@@ -2,13 +2,13 @@ package ru.sfedu.library.beans;
 
 import java.util.Date;
 
-public class History {
+public class HistoryContent {
 
     private final Date timestamp;
     private final String method;
     private final Object object;
 
-    public History(Date timestamp, String method, Object object) {
+    public HistoryContent(Date timestamp, String method, Object object) {
         this.timestamp = timestamp;
         this.method = method;
         this.object = object;

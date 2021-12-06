@@ -1,3 +1,7 @@
 <xml>
-   <conteiner class="java.util.ArrayList"/>
+   <conteiner class="java.util.ArrayList">
+      <object class="ru.sfedu.library.beans.User" name="Ivan" surname="Ivanov" age="17">
+         <id>1</id>
+      </object>
+   </conteiner>
 </xml>
